@@ -50,6 +50,7 @@ a:hover {
 }
 
 .search-bar {
+    height: 5%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -62,7 +63,7 @@ a:hover {
     border: solid black 2px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     flex-wrap: wrap;
     height: 100%;
     gap: 10px;
@@ -84,7 +85,8 @@ a:hover {
 
 .card {
     display: flex;
-    justify-content: center;   
+    justify-content: center;
+    align-items: stretch;   
     flex-direction: column;
     border: solid 2px black;
     gap: 10px;
